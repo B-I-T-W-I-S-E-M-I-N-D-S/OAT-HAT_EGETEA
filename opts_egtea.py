@@ -123,7 +123,7 @@ def parse_opt():
     parser.add_argument(
         '--lr_step',
         type=int,
-        default=3)
+        default=6)### 6 korsi aghe 3 chilo 
         
     # Post processing
     parser.add_argument(
