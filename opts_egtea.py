@@ -119,11 +119,11 @@ def parse_opt():
     parser.add_argument(
         '--epoch',
         type=int,
-        default=10)
+        default=5)
     parser.add_argument(
         '--lr_step',
         type=int,
-        default=6)### 6 korsi aghe 3 chilo 
+        default=3)### 6 korsi aghe 3 chilo 
         
     # Post processing
     parser.add_argument(
