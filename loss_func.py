@@ -235,7 +235,6 @@ def suppress_loss_func(y, output):
     y = y.float().cuda()
     y = y.reshape(-1, y.size(-1))
     output = output.reshape(-1, output.size(-1))
-    
-#     loss = nn.functional.binary_cross_entropy(output,y)
+    loss = nn.functional.binary_cross_entropy(output,y)
         
-#     return loss
+    return loss
