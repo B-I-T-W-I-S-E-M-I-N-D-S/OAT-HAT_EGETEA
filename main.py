@@ -533,7 +533,7 @@ import torch.nn.parallel
 import torch.nn.functional as F
 import torch.optim as optim
 import numpy as np
-import opts_epic as opts
+import opts_egtea as opts
 
 import time
 import h5py
